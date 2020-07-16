@@ -1,0 +1,36 @@
+#container{
+    margin: auto;
+}
+
+#title-container{
+    margin:auto;
+}
+
+#resultados{
+    display: flex;
+    flex-direction: row;
+}
+
+#usuarios-encontrados, #estatisticas, #sem-resultados{
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10%;
+    width:40%;
+}
+
+.linha-pessoa{
+    display: flex;
+    flex-direction: row;
+}
+
+ul{
+    text-align: left;
+    list-style: none;
+}
+
+h1, h2, h3{
+    margin:auto;
+    text-align: center;
+}
