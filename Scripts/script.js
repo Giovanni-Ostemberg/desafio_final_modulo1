@@ -87,10 +87,10 @@ async function montarLista(data) {
             </div>
             <div id="lista-estatisticas">
             <ul>
-            <li>Sexo Masculino: ${qtdSexoMasculino}</li>
-            <li>Sexo Feminino: ${qtdSexoFeminino}</li>
-            <li>Soma das Idades: ${somaDasIdades}</li>
-            <li>Média das Idades: ${mediaIdades}</li>
+            <li class="item-estatisticas">Sexo Masculino: ${qtdSexoMasculino}</li>
+            <li class="item-estatisticas">Sexo Feminino: ${qtdSexoFeminino}</li>
+            <li class="item-estatisticas">Soma das Idades: ${somaDasIdades}</li>
+            <li class="item-estatisticas">Média das Idades: ${mediaIdades}</li>
             </ul>
             </div>
         </div>`;

@@ -1,6 +1,6 @@
 body {
   font-family: 'Josefin Sans', sans-serif;
-  background-color: black;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/000/149/238/original/vector-tecnologia-background-template.jpg');
 }
 
 #container {
@@ -8,7 +8,8 @@ body {
 }
 
 #title-container {
-  margin: auto;
+  margin: 20px auto;
+  color: white;
 }
 
 #pesquisa-container {
@@ -24,7 +25,8 @@ body {
 }
 
 #input-busca {
-  margin: 10px auto;
+  margin: 20px auto;
+  margin-right: 20px;
   width: 60%;
 }
 
@@ -46,13 +48,16 @@ body {
 }
 
 #sem-resultados {
-  margin: auto;
+  margin: 20px auto;
   text-align: center;
   width: 80%;
+  color: white;
   padding: 50px;
   border: 1px #6394ec solid;
   width: 40%;
-  box-shadow: 7px 7px 5px #6394ec;
+  box-shadow: 7px 7px 5px #d94702;
+
+  background-color: rgba(99, 148, 236, 0.6);
 }
 
 .encontrados-titulo {
@@ -61,6 +66,9 @@ body {
   color: white;
   width: auto;
   margin: 0;
+
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
 }
 
 #estatisticas {
@@ -70,6 +78,7 @@ body {
   margin: 10px auto;
   text-align: center;
   padding: 0;
+  padding-bottom: 10px;
   width: 40%;
   height: fit-content;
   border: 1px #6394ec solid;
@@ -90,17 +99,23 @@ img {
 .linha-pessoa {
   display: flex;
   flex-direction: row;
-  margin: auto;
+  margin: 20px 0 auto;
   width: 100%;
-  margin-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: ridge #d94702;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
 }
 
 ul {
   text-align: center;
   list-style: none;
+  padding: 10px;
+  margin: 0;
 }
 li {
   margin: 10px auto;
+  padding: 10px;
 }
 
 h1,
@@ -110,8 +125,33 @@ h3 {
   text-align: center;
 }
 
+h1 {
+  text-shadow: 4px 2px 2px #d94702;
+}
+
 input {
   border: none;
   border-bottom: groove #6394ec;
   box-shadow: 4px 3px 3px #6394ec;
+  text-align: center;
+}
+
+button {
+  border-radius: 50%;
+  width: 25%;
+  height: 2.5em;
+  background-color: #d94702;
+  color: white;
+}
+
+button:disabled {
+  background-color: darkslategray;
+}
+
+.item-estatisticas {
+  border-bottom: ridge #d94702;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 30%;
+
+  margin-top: 20px;
 }
