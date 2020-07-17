@@ -31,8 +31,6 @@ body {
 }
 
 #submit {
-  margin: 10px auto;
-  margin-left: 0;
 }
 
 #usuarios-encontrados-container {
@@ -132,20 +130,30 @@ h1 {
 input {
   border: none;
   border-bottom: groove #6394ec;
-  box-shadow: 4px 3px 3px #6394ec;
+  box-shadow: 4px 3px 3px #d94702;
   text-align: center;
+  background-color: rgba(99, 148, 236, 0.9);
+  color: white;
 }
 
 button {
+  margin: 10px auto;
+  margin-left: 0;
   border-radius: 50%;
+  border-color: #d94702;
   width: 25%;
   height: 2.5em;
   background-color: #d94702;
+  box-shadow: 4px 3px 3px #d94702;
   color: white;
 }
 
 button:disabled {
-  background-color: darkslategray;
+  margin: auto;
+  margin-left: 4px;
+  margin-top: 13px;
+  background-color: rgba(99, 148, 236, 0.3);
+  box-shadow: none;
 }
 
 .item-estatisticas {

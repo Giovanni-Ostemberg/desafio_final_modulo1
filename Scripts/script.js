@@ -142,5 +142,3 @@ async function somaIdades() {
 function formatNumber(numero) {
   return numberFormat.format(numero);
 }
-
-function ativarBotao() {}
