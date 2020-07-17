@@ -1,36 +1,117 @@
-#container{
-    margin: auto;
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: black;
 }
 
-#title-container{
-    margin:auto;
+#container {
+  margin: auto;
 }
 
-#resultados{
-    display: flex;
-    flex-direction: row;
+#title-container {
+  margin: auto;
 }
 
-#usuarios-encontrados, #estatisticas, #sem-resultados{
-    margin: 10px auto;
-    text-align: center;
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 10%;
-    width:40%;
+#pesquisa-container {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
 }
 
-.linha-pessoa{
-    display: flex;
-    flex-direction: row;
+#input-container {
+  display: flex;
+  margin: auto;
+  width: 60%;
 }
 
-ul{
-    text-align: left;
-    list-style: none;
+#input-busca {
+  margin: 10px auto;
+  width: 60%;
 }
 
-h1, h2, h3{
-    margin:auto;
-    text-align: center;
+#submit {
+  margin: 10px auto;
+  margin-left: 0;
+}
+
+#usuarios-encontrados-container {
+  background-color: #adc4f0;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  text-align: center;
+  padding: 0;
+  border: 1px #6394ec solid;
+  width: 40%;
+  box-shadow: 7px 7px 5px #6394ec;
+}
+
+#sem-resultados {
+  margin: auto;
+  text-align: center;
+  width: 80%;
+  padding: 50px;
+  border: 1px #6394ec solid;
+  width: 40%;
+  box-shadow: 7px 7px 5px #6394ec;
+}
+
+.encontrados-titulo {
+  background-color: #6394ec;
+  padding: 10px;
+  color: white;
+  width: auto;
+  margin: 0;
+}
+
+#estatisticas {
+  background-color: #adc4f0;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  text-align: center;
+  padding: 0;
+  width: 40%;
+  height: fit-content;
+  border: 1px #6394ec solid;
+  box-shadow: 7px 7px 5px #6394ec;
+}
+
+.foto,
+.nome,
+.idade {
+  width: 30%;
+  margin: auto;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.linha-pessoa {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 100%;
+  margin-top: 20px;
+}
+
+ul {
+  text-align: center;
+  list-style: none;
+}
+li {
+  margin: 10px auto;
+}
+
+h1,
+h2,
+h3 {
+  margin: auto;
+  text-align: center;
+}
+
+input {
+  border: none;
+  border-bottom: groove #6394ec;
+  box-shadow: 4px 3px 3px #6394ec;
 }
